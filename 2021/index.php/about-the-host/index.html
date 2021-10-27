@@ -4,6 +4,8 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 		<script>(function(html){html.className = html.className.replace(/\bno-js\b/,'js')})(document.documentElement);</script>
 <title>About the Host &#8211; 17th Canadian Workshop on Information Theory</title>
@@ -115,6 +117,30 @@ img.emoji {
 				color: #7a003c;
 			}
 		}
+
+		.search-btn{
+	border: 2px solid #831820;
+  background-color: white;
+  color: #831820;
+  padding: 8px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.search-btn:hover{
+	background: #831820!important;
+	color: aliceblue;
+}
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -10px black;
+	   -moz-box-shadow: 0 8px 6px -10px black;
+	        box-shadow: 0 8px 6px -10px black;
+}
+.navbar-toggler:focus{
+	background-color: white;
+}
+.navbar-toggler:hover{
+	background-color: white;
+}
 	
 </style>
 <link rel='stylesheet' id='twentysixteen-block-style-css'  href='../../wp-content/themes/twentysixteen/css/blocks905b.css?ver=20181230' type='text/css' media='all' />
@@ -149,39 +175,51 @@ body.custom-background { background-color: #7a003c; }
 }		</style>
 	</head>
 
-<body class="page-template-default page page-id-93 custom-background wp-embed-responsive">
-<div id="page" class="site">
+<body class="page-template-default page page-id-93 wp-embed-responsive">
+<div id="page" class="site" style="margin: 0px;">
+
+	<nav class="navbar navbar-light flex-column" style="background-color: #831820; min-height: 5vmax;">
+		<div class="align-self-start">
+			<p class="row text-light" style="font-size: 4vmin; margin:0px 0px 0px 12px !important">
+				17th Canadian Workshop on Information Theory
+			</p>
+			
+			<p class="row text-light" style="font-size: 2vmin; margin:0px 0px 0px 13px !important">CWIT 2021 | Ottawa, Ontario, Canada | June 2-5, 2021</p>
+		</div>
+	</nav>
+
+	<nav id="navbar_to" class="navbar navbar-expand-lg navbar-light bg-light one-edge-shadow">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+		  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+			<li class="nav-item">
+			  <a class="nav-link" href="../../index.html">Welcome</a>
+			</li>
+			
+			<li class="nav-item">
+				<a class="nav-link" href="../../index.php/call-for-papers/index.html">CFP / Submit</a>
+			  </li>
+
+			<li class="nav-item">
+				<a class="nav-link" href="../../index.php/plenaries-keynote/index.html">Plenaries / Keynote</a>
+			  </li>
+
+			<li class="nav-item active">
+				<a class="nav-link" href="#">About the host<span class="sr-only">(current)</span></a>
+			  </li>
+
+		  </ul>
+		  <form class="form-inline my-2 my-lg-0">
+			<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+			<button class="btn my-2 my-sm-0 search-btn" type="submit">Search</button>
+		  </form>
+		</div>
+	  </nav>
+
 	<div class="site-inner">
-		<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-
-		<header id="masthead" class="site-header" role="banner">
-			<div class="site-header-main">
-				<div class="site-branding">
-					
-											<p class="site-title"><a href="../../index.html" rel="home">17th Canadian Workshop on Information Theory</a></p>
-											<p class="site-description">CWIT 2021 | Ottawa, Ontario, Canada | June 2-5, 2021</p>
-									</div><!-- .site-branding -->
-
-									<button id="menu-toggle" class="menu-toggle">Menu</button>
-
-					<div id="site-header-menu" class="site-header-menu">
-													<nav id="site-navigation" class="main-navigation" role="navigation" aria-label="Primary Menu">
-								<div class="menu-main-container"><ul id="menu-main" class="primary-menu"><li id="menu-item-23" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-23"><a href="../../index.html">Welcome</a></li>
-<li id="menu-item-22" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="../call-for-papers/index.html">CFP / Submit</a></li>
-<li id="menu-item-66" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="../plenaries-keynote/index.html">Plenaries/Keynote</a></li>
-<!-- <li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="../program/index.html">Program</a></li>
-<li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="../tutorial-talks/index.html">Tutorial Talks</a></li>
-<li id="menu-item-20" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="../venue-hotel/index.html">Venue/Hotel</a></li>
-<li id="menu-item-21" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="../registration/index.html">Registration</a></li>
-<li id="menu-item-26" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="../committee/index.html">Committee</a></li>
-<li id="menu-item-78" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="../sponsorship/index.html">Sponsorship</a></li> -->
-<li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-93 current_page_item menu-item-98"><a href="index.html">About the Host</a></li>
-</ul></div>							</nav><!-- .main-navigation -->
-						
-											</div><!-- .site-header-menu -->
-							</div><!-- .site-header-main -->
-
-					</header><!-- .site-header -->
 
 		<div id="content" class="site-content">
 
@@ -189,13 +227,15 @@ body.custom-background { background-color: #7a003c; }
 	<main id="main" class="site-main" role="main">
 		
 <article id="post-93" class="post-93 page type-page status-publish hentry">
-	<header class="entry-header">
-		<h1 class="entry-title">About the Host</h1>	</header><!-- .entry-header -->
+	<header class="entry-header d-flex">
+		<h1 class="entry-title mt-3">About the Host</h1>	
+		<img class="pl-3 mt-2" src="../../wp-content/uploads/2018/06/logo.png" style="width: 10vmax; height: 8vmax;" alt="">
+	</header><!-- .entry-header -->
 
 	
 	<div class="entry-content">
 		
-<h3>University of Ottawa's Faculty of Engineering</h3>
+<h3 class="mt-2">University of Ottawa's Faculty of Engineering</h3>
 
 
 
@@ -265,19 +305,7 @@ body.custom-background { background-color: #7a003c; }
 		</div><!-- .site-content -->
 
 		<footer id="colophon" class="site-footer" role="contentinfo">
-							<nav class="main-navigation" role="navigation" aria-label="Footer Primary Menu">
-					<div class="menu-main-container"><ul id="menu-main-1" class="primary-menu"><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-23"><a href="../../index.html">Welcome</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-22"><a href="../call-for-papers/index.html">CFP / Submit</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66"><a href="../plenaries-keynote/index.html">Plenaries/Keynote</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="../program/index.html">Program</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a href="../tutorial-talks/index.html">Tutorial Talks</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20"><a href="../venue-hotel/index.html">Venue/Hotel</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21"><a href="../registration/index.html">Registration</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26"><a href="../committee/index.html">Committee</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-78"><a href="../sponsorship/index.html">Sponsorship</a></li>
-<li class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-93 current_page_item menu-item-98"><a href="index.html">About the Host</a></li>
-</ul></div>				</nav><!-- .main-navigation -->
-			
+							
 			
 			<div class="site-info">
 								<span class="site-title"><a href="../../index.html" rel="home">17th Canadian Workshop on Information Theory</a></span>
@@ -296,6 +324,10 @@ var screenReaderText = {"expand":"expand child menu","collapse":"collapse child 
 </script>
 <script type='text/javascript' src='../../wp-content/themes/twentysixteen/js/functions905b.js?ver=20181230'></script>
 <script type='text/javascript' src='../../wp-includes/js/wp-embed.minbabe.js?ver=5.0.14'></script>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 <!-- Mirrored from cwit.ca/2019/index.php/about-the-host/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 20 Oct 2021 04:11:09 GMT -->
